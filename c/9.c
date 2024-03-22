@@ -7,6 +7,20 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n, i, ans = 0;
+    
+    do{
+        scanf("%d",&n);
+        if(n <= 0){
+            printf("X\n");
+        }
+    }while(n <= 0);
+
+    for(i = 1; i <= n; i++){
+        ans += i;
+    }
+    printf("%d\n",ans);
+    
 
     return 0;
 }

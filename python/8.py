@@ -5,6 +5,18 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input())
+
+    ans = 0
+    for i in range(n) :
+        ans += i + 1
+    print(ans)
+
+    ans = 1
+    for i in range(n):
+        ans *= i + 1
+    print(ans)
+
 
     return
 

@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = input()
+    alphabets = ['a','e','i','o','u']
+    ans = 'X'
+    if n in alphabets:
+        ans = 'O'
+    print(ans)
 
     return
 

@@ -6,7 +6,20 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    // 이곳에 코드를 작성해주
+    char alphabets[] = {'a','e','i','o','u'};
+    char input, i;
+    scanf("%c",&input);
+    for(i = 0; i < 5; i++){
+        if(input == alphabets[i])
+        {
+            printf("O");
+            break;
+        }
+    }
+    if(i == 5){
+        printf("X");
+    }
 
     return 0;
 }

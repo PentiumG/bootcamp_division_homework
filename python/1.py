@@ -5,7 +5,8 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n = input()
+    print(n[::-1])
     return
 
 

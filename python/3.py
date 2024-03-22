@@ -5,6 +5,11 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input())
+    if 12 <= n <= 23:
+        print("PM")
+    elif 0 <= n < 12:
+        print("AM")
 
     return
 

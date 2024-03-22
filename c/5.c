@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int age, height;
+    char ans = 'O';
+
+    scanf("%d",&age);
+    scanf("%d",&height);
+
+    if(age >= 14 || height >= 160)
+        ans = 'X';
+    printf("%c",ans);
 
     return 0;
 }

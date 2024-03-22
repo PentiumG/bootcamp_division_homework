@@ -5,6 +5,18 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input()) / 10
+    if n == 10 or n == 9:
+        print("A")
+    elif n == 8:
+        print("B")
+    elif n == 7:
+        print("C")
+    elif n == 6:
+        print("D")
+    else:
+        print("F")
+
 
     return
 
